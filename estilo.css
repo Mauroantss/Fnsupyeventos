@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 20px auto;
+    position: relative;
+}
+
+.boton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contenedor_input_cuadrado {
+    text-align: center;
+}
+
+.cuadrado_input_cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.input_texto_input_cuadrado {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.boton_input_cuadrado {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contenedor_imc {
+    text-align: center;
+}
+
+.input_imc {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.boton_imc {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contenedor_conversor {
+    text-align: center;
+}
+
+.input_conversor {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}

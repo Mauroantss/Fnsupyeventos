@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de Color</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div id="cuadrado" class="cuadrado"></div>
+        <button id="cambiarBoton" class="boton">Cambiar</button>
+    </div>
+    <div class="contenedor_input_cuadrado">
+        <div id="cuadrado_input_cuadrado" class="cuadrado_input_cuadrado"></div>
+        <input id="texto_input_cuadrado" class="input_texto_input_cuadrado" type="text" placeholder="Escribe aquí">
+        <button id="borrar_boton_input_cuadrado" class="boton_input_cuadrado">Borrar</button>
+    </div>
+    <div class="contenedor_imc">
+        <h2>Calculadora de IMC</h2>
+        <label for="peso">Peso (kg): </label>
+        <input type="number" id="peso" class="input_imc"><br>
+        <label for="altura">Altura (m): </label>
+        <input type="number" id="altura" class="input_imc"><br>
+        <button id="calcular" class="boton_imc">Calcular</button><br>
+        <label for="resultado">Tu IMC es: </label>
+        <input type="text" id="resultado" class="input_imc" disabled>
+    </div>
+    <div class="contenedor_conversor">
+        <h2>Conversor de Divisas</h2>
+        <label for="dolar">Dólares:</label>
+        <input type="number" id="dolar" class="input_conversor" value="1"><br>
+        <label for="pesos">Pesos:</label>
+        <input type="number" id="pesos" class="input_conversor" value="500"><br>
+    </div>
+    
+    <script src="eventos.js"></script>
+</body>
+</html>
